@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    android:background="#111111">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看路"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:layout_marginBottom="48dp"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正在检查权限..."
+        android:textColor="#CCCCCC"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_action"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="去授权" />
+
+</LinearLayout>
